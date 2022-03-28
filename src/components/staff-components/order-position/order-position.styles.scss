@@ -1,0 +1,78 @@
+.background-served {
+  .order-position {
+    background-color: rgb(43, 179, 43);
+    flex-direction: column;
+    width: auto;
+    display: flex;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 7.5px 0px 7.5px;
+    position: relative;
+
+    .position-name {
+      margin: 0 0 0;
+    }
+
+    .position-data {
+      position: absolute;
+      // top: 50%;
+      right: 5px;
+      justify-content: space-around;
+
+      .info {
+        position: relative;
+        margin: 7.5px;
+      }
+    }
+  }
+}
+
+.background-not-served {
+  .order-position {
+    background-color: rgb(179, 214, 109);
+    flex-direction: column;
+
+    width: auto;
+    display: flex;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 7.5px 0px 7.5px;
+    position: relative;
+
+    .position-name {
+      margin: 0 0 0;
+    }
+
+    .remove-button {
+      font-size: 40px;
+      position: absolute;
+      right: 45px;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+
+    .change-status-button {
+      font-size: 40px;
+      position: absolute;
+      right: 5px;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+
+    .position-data {
+      position: absolute;
+      // top: 50%;
+      right: 5px;
+      justify-content: space-around;
+
+      .info {
+        position: relative;
+        margin: 7.5px;
+      }
+    }
+  }
+}

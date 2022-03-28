@@ -1,0 +1,23 @@
+.menu-popup-position {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  padding: 7px;
+  margin: 7.5px 0px 7.5px;
+  position: relative;
+  background-color: rgb(165, 165, 165);
+
+  .position-name {
+    margin: 0 0 0;
+  }
+
+  .custom-button {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+}
